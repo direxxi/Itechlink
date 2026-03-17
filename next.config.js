@@ -3,12 +3,12 @@ const nextConfig = {
   images: {
     remotePatterns: [
       {
-        protocol: 'https',
-        hostname: 'www.zohowebstatic.com',
-        pathname: '/sites/zweb/images/productlogos/**',
+        protocol: "https",
+        hostname: "www.zohowebstatic.com",
+        pathname: "/sites/zweb/images/productlogos/**",
       },
     ],
   },
-}
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
